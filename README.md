@@ -19,6 +19,11 @@ Preprocessing
 2) Run preprocessing of the fMRI data for each experiment by running the scripts>[Exp#]>preprocessing_scripts>run_preprocesing_[Exp#].m
 
 Pattern Similarity
+1) Set the directory path in the file scripts>[Exp#]>pattern_similarity>psa_directories.m for each experiment. Change the par.Expdir field to the experiment folder directory path. 
+2) Create a folder called 'roi' in each subject's fmri_data folder and copy the rois for each subject into this folder. 
+3) Run the pattern similarity analyses for each experiment by running the scripts>[Exp#]>paattern_similarity>[Exp#]_Analysis_PSA.m
+
+Figure Generation
 
 
 License:
