@@ -1,0 +1,35 @@
+function [driftVec propMem] = contextualDrift(baselineC,boundaryC,trialNum,ContextVecSize)
+
+%This is the baseline rate of change
+baselineC = 1/5;
+boundaryC=1;
+trialNum = 9; 
+
+driftModel = repmat([boundaryC ones(1,trialNum)*baselineC],1,ContextVecSize);
+
+Temporal_Drift_Start = randn(ContextVecSize,1);
+
+for iDrift = 1:1000
+    
+    noise = randn(ContextVecSize,1).*driftModel(iDrift);
+    
+    driftVec(:,iDrift) = Temporal_Drift_Start + noise;
+    Temporal_Drift_Start = Temporal_Drift_Start + noise;
+    
+end
+
+driftVec = driftVec - mean(driftVec(:,1));
+
+conditionIdx = repmat([2 ones(1,trialNum)],1,ContextVecSize);
+
+itemIdx = 1:1000;
+
+
+
+
+figure
+plot(mean(driftVec))
+figure
+plot(1./abs(diff(mean(driftVec),2)))
+%axis([1 1000 -1 1])
+end

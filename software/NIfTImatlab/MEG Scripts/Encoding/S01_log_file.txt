@@ -1,0 +1,30 @@
+
+----------------------------------------------------------------------------
+Started at: 14-Jun-2012 09:16:52
+
+START	21058.3329		0			C	I
+Display	Stimulus	Tag	Time	condition	item_num	target
+
+----------------------------------------------------------------------------
+Started at: 14-Jun-2012 09:28:42
+
+START	21769.06		0			C	I
+Display	Stimulus	Tag	Time	condition	item_num	target
+
+----------------------------------------------------------------------------
+Started at: 15-Jun-2012 12:20:49
+
+START	118494.4452		0			C	I
+Display	Stimulus	Tag	Time	condition	item_num	target
+
+----------------------------------------------------------------------------
+Started at: 15-Jun-2012 12:22:41
+
+START	118606.3041		0			C	I
+Display	Stimulus	Tag	Time	condition	item_num	target
+
+----------------------------------------------------------------------------
+Started at: 15-Jun-2012 12:46:31
+
+START	120036.0463		0			C	I
+Display	Stimulus	Tag	Time	condition	item_num	target

@@ -1,0 +1,1 @@
+name	num	face	scene	objectall>blank	1	1	1	1face>blank	2	1	0	0scene>blank	3	0	1	0object>blank	4	0	0	1face>other	5	2	-1	-1scene>other	6	-1	2	-1object>other	7	-1	-1	2scene>object	8	0	1	-1
