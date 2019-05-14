@@ -1,6 +1,6 @@
 # Chanales_CurrBio_2017
 
-Here we have made available the main scripts used in the analysis of the data and figure generation from [Chanales, Oza, Favila, and Kuhl, Current Biology 2017]. The raw data in BIDS format from the study can be found on OpenNeuro (https://openneuro.org/datasets/ds000217/versions/00002). Additional data needed to analyze the data including calibration scans and ROI masks can be found on OSF (). Scripts are provided so that readers can see how the data from this study were analyzed; they have not been edited for ease of general use. Note: The data in this study was comprised of two indpendent experiments and therefore there are preprocessing and pattern similiraity scripts for both Experiment 1 and Experiment 2.  
+Here we have made available the main scripts used in the analysis of the data and figure generation from [Chanales, Oza, Favila, and Kuhl, Current Biology 2017]. The raw data in BIDS format from the study can be found on OpenNeuro (https://openneuro.org/datasets/ds000217/versions/00002). Additional data needed to analyze the data including calibration scans, ROI masks and data from the behavioral experiment can be found on OSF (https://osf.io/vztdn/). Scripts are provided so that readers can see how the data from this study were analyzed; they have not been edited for ease of general use. Note: The data in this study was comprised of two indpendent experiments and therefore there are preprocessing and pattern similiraity scripts for both Experiment 1 and Experiment 2.  
 
 The Matlab scripts require the following dependencies:
 1) spm8 (http://www.fil.ion.ucl.ac.uk/spm)
@@ -24,6 +24,8 @@ Pattern Similarity
 3) Run the pattern similarity analyses for each experiment by running the scripts>[Exp#]>paattern_similarity>[Exp#]_Analysis_PSA.m
 
 Figure Generation
+1) Open Route_Figures.ipynb script in Ipython Notebooks.
+2) Change directory paths for MVPA_dir (where the mvpa_data lives) and Behav_dir (where the behavioral experiment data downloaded from OSF lives) in the Load Data section.
 
 
 License:
